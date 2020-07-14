@@ -1,1 +1,2 @@
-# algorithm-practice
+# Algorithm Practice 
+* [Binarysearch.io] (#binary-search)
