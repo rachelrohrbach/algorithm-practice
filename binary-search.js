@@ -990,4 +990,32 @@ class Solution {
     }
 }
 
+// Compress String
+// Given a string s, eliminate consecutive duplicate characters from the string and return it.
+
+// That is, if a list contains repeated characters, they should be replaced with a single copy of the character. The order of the elements should not be changed.
+
+// Constraints
+
+// Length of s is at most 5000.
+// Example 1
+// Input
+
+// s = "aaaaaabbbccccaaaaddf"
+// Output
+
+// "abcadf"
+class Solution {
+    solve(s) {
+        // Write your code here
+        let duplicates = '';
+        for (let i=0; i < s.length; i++) {
+            if (s[i] !== s[i+1]) {
+                duplicates = duplicates + s[i];
+            } 
+        } return duplicates;
+    }
+
+
+
 
